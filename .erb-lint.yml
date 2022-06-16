@@ -1,0 +1,9 @@
+---
+EnableDefaultLinters: true
+exclude:
+  - "**/node_modules/**/*"
+linters:
+  ErbSafety:
+    enabled: true
+    exclude:
+      - app/views/layouts/application.html.erb
