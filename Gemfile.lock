@@ -1,3 +1,17 @@
+GIT
+  remote: https://github.com/Shopify/erb-lint.git
+  revision: 1241fbc0979966c32a8a7cac8ee5d4b2a651a1a1
+  branch: hm-fix-example-globs
+  specs:
+    erb_lint (0.1.2)
+      activesupport
+      better_html (~> 1.0.7)
+      html_tokenizer
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop
+      smart_properties
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,14 +96,6 @@ GEM
       irb (>= 1.3.6)
       reline (>= 0.2.7)
     digest (3.1.0)
-    erb_lint (0.1.2)
-      activesupport
-      better_html (~> 1.0.7)
-      html_tokenizer
-      parser (>= 2.7.1.4)
-      rainbow
-      rubocop
-      smart_properties
     erubi (1.10.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -203,7 +209,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
-  erb_lint
+  erb_lint!
   puma (~> 5.0)
   rails (~> 7.0.3)
   sprockets-rails
